@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<style type="text/css">
+
+		
+		#a{
+			background:#F8ECE0;
+			width: 100%;
+			height: 600px;
+		}
+		img{
+			float: left; 
+			margin-left: 45%;
+			margin-top: 205;
+			display: grid;
+		}
+		.p{
+			display: block;
+			margin-block-start:0.67em;
+			margin-block-end:0.67em;
+			margin-inline-start:0px;
+			margin-inline-end:0px;
+			letter-spacing: -1px;	
+			float: left; 
+			margin-left: 35%;
+			font-size: 30px;
+			font-family:"SalSans", Helvetica, sans-serif;
+			color: orange;
+		}
+		.p1{
+			
+			letter-spacing: -1px;
+			float: left; 
+ 			color: black;
+		}
+		.lo{
+			display: block;
+			margin-block-start:0.67em;
+			margin-block-end:0.67em;
+			margin-inline-start:0px;
+			margin-inline-end:0px;
+			float: left; 
+ 			margin-left: 40%;
+ 			font-family:"SalSans", Helvetica, sans-serif;
+ 			color: black;
+ 			font-size: 15px;
+		}
+		
+		*{
+			padding: 0px;
+			margin: 0px;
+
+}
+
+.menu{
+float:right; 
+list-style-type:none;
+margin: 0;
+padding: 0;
+width: 100%;
+height: 60px;
+color:white;
+
+}
+.btn {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13;
+  width: 165px;
+  height: 35px;
+  background-color: #FAFAFA;
+  padding: 9px 50px;
+  border: none;
+ 
+  color: #DF7401;
+}
+.btn:hover {
+    background-color:#FE9A2E;
+    color:white;
+}
+
+.btn-large {
+  width: 340px;
+}
+
+
+
+.menu li
+{
+display: inline;
+float:right;
+width:200px;
+background-color:#F8ECE0;
+color: black;
+height:50px;
+line-height:45px;
+text-align:center;
+font-family:sans-serif;
+margin-left: 10px;
+}
+.input{
+
+	 float: left; 
+ margin-left: 25%;
+ width: 600px;
+height: 50px;
+    font-weight: 300;
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 16px;
+    background:white;
+   
+}
+.input-font{
+	    margin-left: 26px;
+	text-align: left;
+    font-size: 20px;
+    line-height: 1.25rem;
+    font-weight: 400;
+
+    color: #a6a29f;
+}
+input:focus:-ms-input-placeholder { /* IE 10+ */
+  font-size: 20px;
+}
+.buscar{
+	background: #FE9A2E;
+	width: 200px;
+	height: 50px;
+	float: right; 
+ margin-right: 16%;
+}
+.buscar:hover{
+	background:#FF8000;
+}
+.busca-image{
+	float: left;
+}
+.f{
+	float: left;
+	margin-left: 0px;
+	padding: 
+}
+	</style>
+	<title>F-Tripe</title>
+</head>
+<body>
+	<div class="menu">
+		<ol>
+			<a href="index.php"><li><button class="btn">Entrar</button></li>
+			<a href="home.html"><li>Lanchonete</li></a>
+			<a href="#"><li>Restaurante</li></a>
+			<a href="#"><li>Pizzaria</li></a>
+		</ol>
+	</div>
+	
+<div id="a">
+
+	<img src="IMG/logo.png" width="110px" height="110px">
+	<p class="p">saciar sua fome <span class="p1">  Nunca foi tão fácil,</span></p><br>
+	<p class="lo">Descubra o restaurante mais próximo de você</p>
+
+	<button class="input">
+		<span class="busca-image"><img src="IMG/imagens.png" width="25px" height="25px"></span>
+		<span >Buscar endereço e número</span>
+	</button>
+	<button class="buscar">Buscar</button>
+</div>
+</body>
+</html>
